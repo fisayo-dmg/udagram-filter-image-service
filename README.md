@@ -6,6 +6,9 @@
 ## EBS URL
 http://udagram-image-filter-service-dev2.us-east-1.elasticbeanstalk.com/
 
+## Github URL
+https://github.com/fisayo-dmg/udagram-filter-image-service
+
 ---
 
 ## Description
