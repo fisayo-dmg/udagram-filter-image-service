@@ -36,7 +36,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       return res.status(404).send({ message: 'Immage url not found, enter image url' });
     }
     try {
-      let imagePath = await filterImageFromURL(imageUrl)
+      let imagePath: string = await filterImageFromURL(imageUrl)
       res.status(200).sendFile(imagePath);
       res.on("finish", function() {
         deleteLocalFiles([imagePath]);
